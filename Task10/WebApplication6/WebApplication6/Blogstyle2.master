@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Style2Main.master" AutoEventWireup="true" CodeBehind="Blogstyle2.master.cs" Inherits="WebApplication6.Blogstyle2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="content3" runat="server">
+    <article id="parag" >
+    <article id ="par1" class="sch">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quasi, asperiores aspernatur, 
+        quae cumque nesciunt minus ducimus voluptate blanditiis error officia odit nemo corporis non corrupti vel 
+        incidunt, delectus necessitatibus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quasi, asperiores aspernatur, 
+        quae cumque nesciunt minus ducimus voluptate blanditiis error officia odit nemo corporis non corrupti vel 
+    </article>
+    <article id ="par2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quasi, asperiores aspernatur, 
+        quae cumque nesciunt minus ducimus voluptate blanditiis error officia odit nemo corporis non corrupti vel 
+        incidunt, delectus necessitatibus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quasi, asperiores aspernatur, 
+        quae cumque nesciunt minus ducimus voluptate blanditiis error officia odit nemo corporis non corrupti vel 
+    </article>
+
+    <article id ="par3">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quasi, asperiores aspernatur, 
+        quae cumque nesciunt minus ducimus voluptate blanditiis error officia odit nemo corporis non corrupti vel 
+        incidunt, delectus necessitatibus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quasi, asperiores aspernatur, 
+        quae cumque nesciunt minus ducimus voluptate blanditiis error officia odit nemo corporis non corrupti vel 
+    </article>
+    <article id ="par4">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quasi, asperiores aspernatur, 
+       quae cumque nesciunt minus ducimus voluptate blanditiis error officia odit nemo corporis non corrupti vel 
+       incidunt, delectus necessitatibus!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quasi, asperiores aspernatur, 
+       quae cumque nesciunt minus ducimus voluptate blanditiis error officia odit nemo corporis non corrupti vel 
+    </article>
+ </article>
+
+    <style>
+        #parag > article{
+            margin-bottom: 30px;
+            font-size: 15px;
+            background-color: orange;
+            display: none;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $("#par1").show(300);
+            $("#par2").show(700);
+            $("#par3").show(900);
+            $("#par4").show(1400);
+            $("#par5").show(1800);
+            $("#par6").show(2000);
+        });
+    </script>
+</asp:Content>
+
+

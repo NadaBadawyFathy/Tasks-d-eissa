@@ -1,0 +1,56 @@
+/* Page1 */
+#gallary .buttons {
+    margin: 0 auto 30px;
+}
+#gallary .buttons button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: .3s;
+}
+#gallary .buttons button:hover {
+    background-color: red;
+}
+#gallary .images {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+#gallary .images img {
+    max-width: 30%;
+    display: none;
+}
+#gallary .images img.highlight {
+    border: 5px dashed black;
+}
+
+/* Pgae2 */
+#about {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 30px;
+    text-align: center;
+}
+#about .box {
+    border: 3px solid red;
+    position: relative;
+}
+#about .box .text {
+    padding: 0px 10px;
+}
+#about .light {
+    border: 5px dashed black;
+}
+#about img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+#about .box #img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

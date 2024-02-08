@@ -1,0 +1,41 @@
+.website {
+    width: 800px;
+    background-color: #033f63;
+    padding: 20px 30px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.website h1 {
+    text-align: center;
+}
+.website #text1 {
+    border: 4px solid #28666e;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #b5b682;
+    color: white;
+}
+.website #text2 {
+    border: 4px solid #b5b682;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e63b60;
+    color: white;
+}
+.website #text3 {
+    border: 4px solid #e63b60;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #28666e;
+    color: white;
+}
+.website #text1 h2 {
+    color: #28666e;
+}
+.website #text2 h2 {
+    color: #b5b682;
+}
+.website #text3 h2 {
+    color: #e63b60;
+}

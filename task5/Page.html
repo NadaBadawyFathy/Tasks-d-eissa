@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="logo">
+                <a href="HomePage.html">
+                    <img src="images/logo.png" alt="site logo">
+                    <h1> Welcome to DELL website</h1>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Page.html" id="home">Page1</a></li>
+
+                <li><a href="Page2.html">Page2</a></li>
+                <li><a href="Page3.html">Page3</a></li>
+            </ul>
+        </nav>
+
+
+        <main class="body">
+            <article id="form">
+                <img src="images/avatar.png" alt="">
+                <form id="container" action="">
+                    <label>UserName</label><br />
+                    <input type="text" id="s1" placeholder="Enter Username"> <br /><br />
+                    <label>PassWord</label><br />
+                    <input type="password" id="s2" placeholder="Enter Password"><br /><br />
+                </form>
+                <button id="print" onclick="save()">Print</button>
+            </article>
+            <article id="out" style="font-size: 25px;"></article>
+        </main>
+        <footer class="footer">
+            <p>developed by Name</p>
+        </footer>
+    </div>
+    <script>
+        function save() {
+            var x1 = document.getElementById("s1").value;
+            var x2 = document.getElementById("s2").value;
+
+            if (x1=='Nada' && x2=='nada888'){
+                document.getElementById('out').innerHTML = 'Hi :Nada';
+            }
+            else {
+                document.getElementById('out').style.color = 'red';
+                document.getElementById('out').innerHTML = 'Check the username and password';
+            }
+        }
+        
+    
+        
+    </script>
+</body>
+</html>

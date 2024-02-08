@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="logo">
+                <a href="HomePage.html">
+                    <img src="images/logo.png" alt="site logo">
+                    <h1> Welcome to DELL website</h1>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Page1.html" id="home">Page1</a></li>
+
+                <li><a href="Page2.html">Page2</a></li>
+                <li><a href="Page3.html">Page3</a></li>
+            </ul>
+        </nav>
+
+
+        <main class="body">
+            <div class="but">
+            <button class="button" id="colorBut1">Change to Green</button>
+            <button class="button" id="colorBut2">Change to Blue</button>
+            <button class="button" id="colorBut3">Change to Red</button>
+            </div>
+
+            <div class="but">
+            <button class="button" id="sizeBut1">Change to Larger</button>
+            <button class="button" id="sizeBut2">Change to X-large</button>
+            <button class="button" id="sizeBut3">Change to XX-large</button>
+            </div>
+
+            <div class="paragraph" style="line-height: 1.6; font-size:large">
+                <p class="paragraph">University life is a transformative journey marked by academic exploration, personal development, and a myriad of experiences. For students entering the realm of higher education, it represents not only a pursuit of knowledge but also a time of self-discovery and growth.</p>
+                <p class="paragraph" >University professors, often referred to as the intellectual backbone of educational institutions, play a pivotal role in shaping the academic landscape and influencing the minds of future generations. In the context of universities, the term "professor" is commonly associated with individuals who hold advanced degrees in their respective fields and are actively engaged in teaching, research, and academic leadership. </p>
+                <p  class="paragraph">University staff play a vital behind-the-scenes role in ensuring the smooth functioning of academic institutions. From administrative personnel managing day-to-day operations to support staff maintaining campus facilities, their collective efforts create an environment conducive to learning</p>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>developed by Name</p>
+        </footer>
+
+        <footer class="footer">
+            <p>developed by Name</p>
+        </footer>
+    </div>
+
+    <script>
+        $('#colorBut1').click(function() {
+            $('.paragraph').removeClass().addClass('paragraph color1');
+        });
+
+        $('#colorBut2').click(function() {
+            $('.paragraph').removeClass().addClass('paragraph color2');
+        });
+
+        $('#colorBut3').click(function() {
+            $('.paragraph').removeClass().addClass('paragraph color3');
+        });
+
+        $('#sizeBut1').click(function() {
+            $('.paragraph').removeClass().addClass('paragraph size1');
+        });
+
+        $('#sizeBut2').click(function() {
+            $('.paragraph').removeClass().addClass('paragraph size2');
+        });
+
+        $('#sizeBut3').click(function() {
+            $('.paragraph').removeClass().addClass('paragraph size3');
+        });
+    </script>
+</body>
+</html>

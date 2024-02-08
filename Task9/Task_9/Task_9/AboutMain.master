@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="AboutMain.master.cs" Inherits="Task_9.AboutMain" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <div class="About">
+            <div class="abaut_r">
+                <img src="images/slider4.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.
+                </p>
+
+            </div>
+            <div class="abaut_l">
+                <img src="images/slider3.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.
+                </p>
+            </div>
+            <div class="abaut_a">
+                <img src="images/slider2.jpg" alt="">
+                <h2>Lorem ipsum dolor sit amet</h2>
+            </div>
+            <div class="abaut_a">
+                <img src="images/slider2.jpg" alt="">
+                <h2>Lorem ipsum dolor sit amet</h2>
+            </div>
+            <div class="abaut_a">
+                <img src="images/slider2.jpg" alt="">
+                <h2>Lorem ipsum dolor sit amet</h2>
+            </div>
+
+
+        </div>
+</asp:Content>

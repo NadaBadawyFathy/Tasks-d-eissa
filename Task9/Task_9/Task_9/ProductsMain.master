@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="ProductsMain.master.cs" Inherits="Task_9.ProductsMain" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <div class="Products">
+            <div>
+                <img src="images/slider2.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/slider3.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/slider4.jpg" alt="">
+            </div>
+           
+            <div>
+                <img src="images/slider2.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/slider3.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/slider4.jpg" alt="">
+            </div>
+            
+            <div>
+                <img src="images/slider2.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/slider3.jpg" alt="">
+            </div>
+            <div>
+                <img src="images/slider4.jpg" alt="">
+            </div>
+        </div>
+        <br />
+</asp:Content>

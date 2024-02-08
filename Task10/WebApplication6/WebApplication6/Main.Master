@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="WebApplication6.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+ <script src="js/jquery-3.5.1.js"></script>
+	<script src="js/Script.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="page">
+	<div class="background">
+		<div class="sidebar">
+			<a href="HomeStyle1.aspx" id="logo"><img src="images/logo.png" alt="logo"></a>
+			<ul class="navigation">
+				<li>
+					<a href="HomeStyle1.aspx">Home</a>
+				</li>
+				<li>
+					<a href="AboutStyle1.aspx">About Us</a>
+				</li>
+				<li>
+					<a href="ClassesStyle2.aspx">Classes</a>
+				</li>
+				<li>
+					<a href="TournamentsStyle2.aspx">Tournaments</a>
+				</li>
+				<li>
+					<a href="ContactStyle1.aspx">Contact Us</a>
+				</li>
+				<li>
+					<a href="BlogStyle2.aspx">Blog News</a>
+				</li>
+			</ul>
+		</div>
+
+		<asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+
+	</div>
+	<div class="footer">
+		<div>
+			<div>
+				<div>
+					<h3>Latest Blog Posts</h3>
+					<ul>
+						<li>
+							<h4>This Is Just A Place Holder</h4>
+							<p>This website template has been designed by Free Website.</p>
+						</li>
+						<li>
+							<h4>So That You Can See</h4>
+							<p>This website template has been designed by Free Website.</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Newsletter</h3>
+					<p>
+						Sign up and be the first to get exclusive news and updates.
+					</p>
+					<form action="AboutStyle1.aspx">
+						<input type="text" value="Email Address" onblur="this.value=!this.value?'Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
+						<input type="submit" value="">
+					</form>
+				</div>
+				<div class="connect">
+					<div id="facebook">
+						<a href="http://freewebsitetemplates.com/go/facebook/">facebook</a>
+					</div>
+					<div id="twitter">
+						<a href="http://freewebsitetemplates.com/go/twitter/">twitter</a>
+					</div>
+					<div id="googleplus">
+						<a href="http://freewebsitetemplates.com/go/googleplus/">google+</a>
+					</div>
+				</div>
+			</div>
+			<ul>
+				<li>
+					<a href="HomeStyle1.aspx">Home</a>
+				</li>
+				<li>
+					<a href="AboutStyle1.aspx">About Us</a>
+				</li>
+				<li>
+					<a href="ClassesStyle2.aspx">Classes</a>
+				</li>
+				<li>
+					<a href="TournamentsStyle2.aspx">Tournaments</a>
+				</li>
+				<li>
+					<a href="ContactStyle1.aspx">Contact Us</a>
+				</li>
+				<li>
+					<a href="BlogStyle2.aspx">Blog</a>
+				</li>
+			</ul>
+			<p>
+				&#169; 2023 Family Chess Club. All Rights Reserved
+			</p>
+		</div>
+	</div>
+</div>
+    </form>
+	<script>
+		$(document).ready(function() {
+			$("ul.navigation li a").hover(
+				function() {
+                    $(this).css("background-color", "#447f91");
+				},
+				function() {
+                    $(this).css("background-color", ""); 
+				}
+			);
+		});
+    </script>
+</body>
+</html>

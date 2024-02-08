@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="logo">
+                <a href="HomePage.html">
+                    <img src="images/logo.png" alt="site logo">
+                    <h1> Welcome to DELL website</h1>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Page1.html" id="home">Page1</a></li>
+
+                <li><a href="Page2.html">Page2</a></li>
+                <li><a href="Page3.html">Page3</a></li>
+            </ul>
+        </nav>
+
+
+    <main class="body">
+            <div id="h1" class="div">click to Slide 1 </div>
+            <p id="result" style="display: none; text-align:center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, 
+                numquam nihil aperiam dignissimos unde suscipit et reprehenderit obcaecati 
+                molestiae sed sapiente repudiandae recusandae accusamus, maiores animi? Velit officiis qui laboriosam?
+            </p>
+
+        <div id="h2" class="div">Click To Slide 2</div>
+            <p id="result2" id="answer" style="display: none; text-align:center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, 
+                numquam nihil aperiam dignissimos unde suscipit et reprehenderit obcaecati 
+                molestiae sed sapiente repudiandae recusandae accusamus, maiores animi? Velit officiis qui laboriosam?
+            </p>
+
+        <div id="h3" class="div">Click To Slide 3</div>
+            <p id="result3" id="answer" style="display: none; text-align:center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, 
+                numquam nihil aperiam dignissimos unde suscipit et reprehenderit obcaecati 
+                molestiae sed sapiente repudiandae recusandae accusamus, maiores animi? Velit officiis qui laboriosam?
+            </p>
+
+        <div id="h4" class="div">Click To Slide 4</div>
+            <p id="result4" id="answer" style="display: none; text-align:center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, 
+                numquam nihil aperiam dignissimos unde suscipit et reprehenderit obcaecati 
+                molestiae sed sapiente repudiandae recusandae accusamus, maiores animi? Velit officiis qui laboriosam?
+            </p>
+
+    </main>
+    
+    <footer class="footer">
+        <p>developed by Name</p>
+    </footer>
+
+</div>
+<script>
+// h1
+$('#h1').click(function () {
+if ($('#result').is(":hidden")) {
+    $('#result').show();
+} else {
+    $('#result').hide();
+}
+});
+
+// h2
+$('#h2').click(function () {
+if ($('#result2').is(":hidden")) {
+    $('#result2').show();
+} else {
+    $('#result2').hide();
+}
+});
+
+// h3
+$('#h3').click(function () {
+if ($('#result3').is(":hidden")) {
+    $('#result3').show();
+} else {
+    $('#result3').hide();
+}
+});
+
+// h4
+$('#h4').click(function () {
+if ($('#result4').is(":hidden")) {
+    $('#result4').show();
+} else {
+    $('#result4').hide();
+}
+});
+</script>
+
+</body>
+</html>

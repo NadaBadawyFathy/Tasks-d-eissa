@@ -1,0 +1,18 @@
+.website {
+    width: 800px;
+    background-color: #033f63;
+    padding: 20px 40px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.website h1 {
+    text-align: center;
+}
+.website img {
+    margin-bottom: 20px;
+}
+.website #text p {
+    line-height: 1.8;
+    color: violet;
+}

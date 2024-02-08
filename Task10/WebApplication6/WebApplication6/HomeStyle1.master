@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Style1Main.master" AutoEventWireup="true" CodeBehind="HomeStyle1.master.cs" Inherits="WebApplication6.HomeStyle1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
+    <div>
+						<h3>Home <br /> <br />
+                            A Chess Club For All Ages</h3>
+						<p>
+							This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us.
+						</p>
+						<p>
+							If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
+						</p>
+						<div class="first">
+							<p>
+								Classes And <br> Tutorials For Kids <br> Private Or Group
+							</p>
+							<div>
+								<p>
+									Choose between private and group classes for kids or adults. It's never too late to learn how to play chess!
+								</p>
+								<a href="classes.html">Learn More</a>
+							</div>
+						</div>
+						<div>
+							<p>
+								The Exclusive Club <br> Chess Set
+							</p>
+							<div>
+								<p>
+									Carved from hard wood by hand and finished off with italian varnish. Only 10 sets made in the world.
+								</p>
+								<a href="blog.html">Go to Blog</a>
+							</div>
+						</div>
+						<div class="section">
+							<h3>Chess Tip Of The Day</h3>
+							<p>
+								Cras et velit auctor urna posuere dignissim. Vivamus nec enim elementum massa lacinia congue a nec diam. Integer egestas, ipsum vel viverra euismod, diam tellus imperdiet nulla, condimentum bibendum lorem lacus in lacus.
+							</p>
+							<a href="classes.html">More Tips</a>
+						</div>
+					</div>
+</asp:Content>

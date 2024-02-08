@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Task_9.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+<title>About US</title>
+<link rel="stylesheet" href="css/stylesheet.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+    <header>
+        <div id="logo">
+            <a href="HomeMain.aspx">
+                <img src="images/logo.png" alt="site logo">
+                <h1>
+                    Welcome to DELL website
+                </h1>
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="HomeMain.aspx" id="home">Home</a></li>
+            <li>
+                <a href="#">Services</a>
+                <ul>
+                    <li><a href="WebDesign.html">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">Web Training</a></li>
+                </ul>
+            </li>
+            <li><a href="ProductsMain.aspx">Products</a></li>
+            <li><a href="AboutMain.aspx">About US</a></li>
+            <li><a href="ConatactMain.aspx">Contact US</a></li>
+        </ul>
+    </nav>
+             <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+    <div class="footer">
+        <p>developed by Name</p>
+    </div>
+</div>
+    </form>
+</body>
+</html>

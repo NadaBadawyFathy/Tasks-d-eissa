@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page1</title>
+    <link rel="stylesheet" href="css/master.css">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="logo">
+                <a href="HomePage.html">
+                    <img src="images/logo.png" alt="site logo">
+                    <h1> Welcome to DELL website</h1>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Page1.html" id="home">Page1</a></li>
+
+                <li><a href="Page2.html">Page2</a></li>
+                <li><a href="Page3.html">Page3</a></li>
+            </ul>
+        </nav>
+        <main class="body">
+            <article id="form">
+                <img src="images/featured3.jpg" alt="">
+                <div id="paragraph" style="margin: 0px 20px;"></div>
+                <div id="container">
+                    <input type="text" id="input"> <br /><br />
+                    <button id="send" >Send</button>
+                </div>
+            </article>
+        </main>
+        <footer class="footer">
+            <p>developed by Name</p>
+        </footer>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $("#send").click(function() {
+            var pText = $("#input").val();
+
+            var newP = $("<span>").text(pText);
+
+            $("#paragraph").append(newP);
+
+            $("#input").val(' ');
+        });
+        });
+    </script>
+</body>
+</html>

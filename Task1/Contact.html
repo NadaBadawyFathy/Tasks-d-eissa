@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        *{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            list-style: none;
+            text-decoration: none;
+        }
+        ul > li > a {
+            color: black;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        table {
+        border: 2px black solid;
+        padding: 5px;
+        }
+        tfoot {
+        text-align: center;
+        }
+        td {
+        border: 2px black solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- Start header -->
+    <header style="background-color: #f6f6f6; padding: 20px; margin-bottom: 40px;">
+        <ul style="display: flex; justify-content: flex-end;">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </header>
+    <!-- End header -->
+    <center>
+        <!-- Start body -->
+    <section>
+        <article>
+            <table>
+        <caption style="font-size: 30px; margin: 10px; color: brown; font-weight: bold;">Contact me</caption>
+        <body>
+            <tr>
+                <td>Your Name :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">Your Opinion on the website :</td>
+                <td>
+                    <input type="radio" name="os" id="fe">
+                    <label for="fe">Very good</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="os" id="fd">
+                    <label for="fd">good</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="os" id="ff">
+                    <label for="ff">fair</label>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Gender :</td>
+                <td>
+                    <input type="radio" name="op" id="fg">
+                    <label for="fg">Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="op" id="fn">
+                    <label for="fn">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Marital Status :</td>
+                <td><select name="id" id="id">
+                    <option value="or">Other</option>
+                    <option value="or">Single</option>
+                    <option value="or">married</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td rowspan="4">Your Know about my website from :</td>
+                <td>
+                    <input type="checkbox" id="mf">
+                    <label for="mf">internet</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="mm">
+                    <label for="mm">Friend</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="md">
+                    <label for="md">Search engine</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="mr">
+                    <label for="mr">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Subject :</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Message :</td>
+                <td><textarea name="text" id="" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2"><button style="padding: 10px 20px;">Submit</button></td>
+                </tr>
+            </tfoot>
+        </body>
+    </table>
+        </article>
+    </section>
+        <!-- End body -->
+    </center>
+    <!-- Start footer -->
+    <footer style="width: 100%; background-color: #2c4755; padding: 20px; text-align: center; position: absolute; bottom: 0;">
+        <p style="color: white;">Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+    </footer>
+    <!-- End footer -->
+</body>
+</html>

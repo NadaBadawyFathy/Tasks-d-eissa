@@ -1,0 +1,166 @@
+/*-------------------container--------------------*/
+.container {
+    width: 960px;
+    margin: auto;
+    background: lightgoldenrodyellow;
+    min-height: 1000px;
+}
+    /*-------------------header--------------------*/
+.container header {
+     background-color:aquamarine;
+     padding: 20px;
+     overflow: hidden;
+}
+.container header #logo a img {
+       width: 100px;
+}
+.container header #logo h1 {
+       float: right
+}
+    /*-------------------nav--------------------*/
+    .container nav {
+        text-align: center;
+    }
+
+        .container nav ul {
+            list-style-type: none;
+            background-color: cadetblue;
+            overflow: hidden;
+        }
+
+            .container nav ul li {
+                float: left;
+            }
+
+                .container nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                    display: block;
+                    border-left: solid white 1px;
+                    padding: 10px 60px;
+                }
+
+            .container nav ul ul {
+                position: absolute;
+                left: -999px;
+                padding: 0;
+                margin: 0;
+            }
+
+            .container nav ul li li {
+                float: none;
+                border-bottom: solid white 1px;
+                border-top: solid white 1px
+            }
+
+            .container nav ul li:hover ul {
+                left: auto;
+            }
+
+            .container nav ul li a:hover {
+                color: cadetblue;
+                background: #fff;
+            }
+
+            .container nav ul li #home {
+                border-left: none
+            }
+ 
+    /*-------------------footer--------------------*/
+
+    .container .footer {
+        background: aquamarine;
+        height: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+
+   
+   
+    /*-------------------body--------------------*/
+    .container .body {
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+        .container .body #form {
+            width: 600px;
+            height: 500px;
+            margin: 0 auto;
+            padding: 5px;
+            background: white;
+            border: 3px solid aquamarine;
+        }
+        .container .body #form img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-left: 200px;
+        }
+/*-------------------login--------------------*/
+input[type=text], input[type=password], input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+    button:hover {
+        opacity: 0.8;
+    }
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+#container {
+    padding: 16px;
+}
+
+/*---------------------------------------*/
+
+#out {
+    width: 70%;
+    margin: 40px auto;
+    padding: 5px;
+    color: white;
+    height: 60px;
+    background-color: forestgreen;
+}
+
+#print {
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: forestgreen;
+    margin-left: 90px;
+}
+
+    #print:hover {
+        background-color: green;
+    }         
+   

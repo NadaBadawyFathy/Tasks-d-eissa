@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\style2main.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\style2main.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\aboutstyle1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\aboutstyle1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\tournamentsstyle2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\tournamentsstyle2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\blogstyle2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\blogstyle2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\classesstyle2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\classesstyle2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\main.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\main.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\blogstyle2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\blogstyle2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\tournamentsstyle2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\tournamentsstyle2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\aboutstyle1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\aboutstyle1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\style1main.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\style1main.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\classesstyle2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\classesstyle2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|c:\\users\\hd store\\source\\repos\\webapplication6\\webapplication6\\blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED7E55D6-06E5-4B59-B97F-D3646FA4850F}|WebApplication6\\WebApplication6.csproj|solutionrelative:webapplication6\\blog.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Script.js",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\js\\Script.js",
+              "RelativeDocumentMoniker": "WebApplication6\\js\\Script.js",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\js\\Script.js",
+              "RelativeToolTip": "WebApplication6\\js\\Script.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2023-12-21T09:10:41.446Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Blogstyle2.master",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\Blogstyle2.master",
+              "RelativeDocumentMoniker": "WebApplication6\\Blogstyle2.master",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\Blogstyle2.master",
+              "RelativeToolTip": "WebApplication6\\Blogstyle2.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-19T01:10:22.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassesStyle2.master",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\ClassesStyle2.master",
+              "RelativeDocumentMoniker": "WebApplication6\\ClassesStyle2.master",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\ClassesStyle2.master",
+              "RelativeToolTip": "WebApplication6\\ClassesStyle2.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-19T01:02:57.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.Master",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\Main.Master",
+              "RelativeDocumentMoniker": "WebApplication6\\Main.Master",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\Main.Master",
+              "RelativeToolTip": "WebApplication6\\Main.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-18T19:34:27.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TournamentsStyle2.master",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\TournamentsStyle2.master",
+              "RelativeDocumentMoniker": "WebApplication6\\TournamentsStyle2.master",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\TournamentsStyle2.master",
+              "RelativeToolTip": "WebApplication6\\TournamentsStyle2.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-19T01:09:44.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Style2Main.master",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\Style2Main.master",
+              "RelativeDocumentMoniker": "WebApplication6\\Style2Main.master",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\Style2Main.master",
+              "RelativeToolTip": "WebApplication6\\Style2Main.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-19T00:27:36.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutStyle1.master",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\AboutStyle1.master",
+              "RelativeDocumentMoniker": "WebApplication6\\AboutStyle1.master",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\AboutStyle1.master",
+              "RelativeToolTip": "WebApplication6\\AboutStyle1.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-21T09:08:52.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogStyle2.aspx",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\BlogStyle2.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\BlogStyle2.aspx",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\BlogStyle2.aspx",
+              "RelativeToolTip": "WebApplication6\\BlogStyle2.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-19T01:15:23.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TournamentsStyle2.aspx",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\TournamentsStyle2.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\TournamentsStyle2.aspx",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\TournamentsStyle2.aspx",
+              "RelativeToolTip": "WebApplication6\\TournamentsStyle2.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-19T01:16:48.345Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\css\\style.css",
+              "RelativeDocumentMoniker": "WebApplication6\\css\\style.css",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\css\\style.css",
+              "RelativeToolTip": "WebApplication6\\css\\style.css",
+              "ViewState": "AQIAAJ4BAAAAAAAAAAAAALABAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-12-21T12:21:48.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AboutStyle1.aspx",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\AboutStyle1.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\AboutStyle1.aspx",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\AboutStyle1.aspx",
+              "RelativeToolTip": "WebApplication6\\AboutStyle1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-21T10:25:44.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Style1Main.master",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\Style1Main.master",
+              "RelativeDocumentMoniker": "WebApplication6\\Style1Main.master",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\Style1Main.master",
+              "RelativeToolTip": "WebApplication6\\Style1Main.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-21T09:18:14.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClassesStyle2.aspx",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\ClassesStyle2.aspx",
+              "RelativeDocumentMoniker": "WebApplication6\\ClassesStyle2.aspx",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\ClassesStyle2.aspx",
+              "RelativeToolTip": "WebApplication6\\ClassesStyle2.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-12-19T01:16:01.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "about.html",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\about.html",
+              "RelativeDocumentMoniker": "WebApplication6\\about.html",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\about.html",
+              "RelativeToolTip": "WebApplication6\\about.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2023-12-18T19:48:02.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "blog.html",
+              "DocumentMoniker": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\blog.html",
+              "RelativeDocumentMoniker": "WebApplication6\\blog.html",
+              "ToolTip": "C:\\Users\\HD STORE\\source\\repos\\WebApplication6\\WebApplication6\\blog.html",
+              "RelativeToolTip": "WebApplication6\\blog.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2023-12-18T19:47:30.395Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

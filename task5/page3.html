@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="logo">
+                <a href="HomePage.html">
+                    <img src="images/logo.png" alt="site logo">
+                    <h1> Welcome to DELL website</h1>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Page.html" id="home">Page1</a></li>
+
+                <li><a href="Page2.html">Page2</a></li>
+                <li><a href="Page3.html">Page3</a></li>
+            </ul>
+        </nav>
+
+
+        <main class="body">
+            <article id="form">
+                <div class="column">
+                    <form id="container" action="">
+                        <label>Product 1</label><br />
+                        <select id="s1">
+                            <option>Tea</option>
+                            <option>waters</option>
+                            <option>Milk</option>
+                            <option>sugar</option>
+                            <option>Vegetables</option>
+                        </select> <br /><br />
+                        <label>The price Product 1</label><br />
+                        <input type="number" id="p1" placeholder="The price Product 1"><br /> <br />
+                        <label>Product 2</label><br />
+                        <select id="s2">
+                            <option>Tea</option>
+                            <option>waters</option>
+                            <option>Milk</option>
+                            <option>sugar</option>
+                            <option>Vegetables</option>
+                        </select><br /><br />
+                        <label>The price Product 2</label>
+                        <input type="number" id="p2" placeholder="The price Product 2"><br /> <br />
+                        <label>Product 3</label><br />
+                        <select id="s3">
+                            <option>Tea</option>
+                            <option>waters</option>
+                            <option>Milk</option>
+                            <option>sugar</option>
+                            <option>Vegetables</option>
+                        </select><br /><br />
+                        <label>The price Product 3</label>
+                        <input type="number" id="p3" placeholder="The price Product 3"><br /> <br />
+
+                    </form>
+
+                </div>
+            </article>
+
+
+            <article id="out"></article>
+            <button id="print" onclick="save()">Print</button>
+        </main>
+        <footer class="footer">
+            <p>developed by Name</p>
+        </footer>
+       
+    </div>
+
+    
+    <script>
+        function save() {
+            var x1 = document.getElementById("s1");
+            var x2 = document.getElementById("s2");
+            var x3 = document.getElementById("s3");
+          
+            var i1 = x1.selectedIndex;
+            var i2 = x2.selectedIndex;
+            var i3 = x3.selectedIndex;
+           
+            var p1 = document.getElementById("p1").value;
+            var p2 = document.getElementById("p2").value;
+            var p3 = document.getElementById("p3").value;
+          
+            var text = "";
+           
+            text += "<h1>" + "Product 1 :" + x1.options[i1].text + "...."+ "Price: "  + p1+ "<h1/>";
+            text += "<h1>" + "Product 2 :" + x2.options[i2].text + "...." + "Price: "+ p2+ "<h1/>";
+            text += "<h1>" + "Product 3 :" + x3.options[i3].text + "...." + "Price: "+ p3+ "<h1/>";
+           
+            var sum = p1++ + p2++  + p3++ + 0;
+            text += "<h1>" + "Sum :" + sum + "<h1/>";
+
+            var discount= ((sum*10)/100);
+            text += "<h1>" + "Discount :" + discount + "<h1/>";
+
+            var total = sum-discount;
+            text += "<h1>" + "Total :" + total + "<h1/>";
+                
+            document.getElementById('out').innerHTML = text;
+        }
+        
+    
+        
+    </script>
+</body>
+</html>

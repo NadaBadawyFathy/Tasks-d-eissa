@@ -1,0 +1,185 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Style2Main.master.cs" Inherits="WebApplication6.Style2Main" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <div class="body">
+				<div class="blog">
+					<div>
+						<div style="position: relative">
+							<img style="position:absolute; top: 0; left:0" src="images/slider4.jpg" id="img2" alt="">
+							<img  src="images/slider1.jpg" alt="">
+							<p>
+								Posted by <a href="#">Daniel Hallows</a> in <span>Prizes, Exclusives</span>
+							</p>
+							<a href="">
+							<h2>The Exclusive Club Chess Set</h2>
+							</a>
+						</div>
+						<asp:ContentPlaceHolder ID="content3" runat="server"></asp:ContentPlaceHolder>
+					</div>
+					
+				</div>
+				<div class="sidebar">
+					<div>
+						<h4 id="h1">Featured Blog Posts</h4>
+						<ul id="ul1">
+							<li>
+								<a href="">
+								<p>
+									The Exclusive Club Chess Set
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Father's Day Tournament
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Be Good At Playing Chess
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									What Every Beginner Should Know
+								</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4 id="h2">Categories</h4>
+						<ul id="ul2">
+							<li>
+								<a href="">
+								<p>
+									Prizes
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Exclusives
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Tournaments
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Events
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Chess Tips
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Beginners Rank
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Experts Rank
+								</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+								<p>
+									Masters Rank
+								</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div>
+						<h4 id="h3">Archives</h4>
+						<ul id="ul3">
+							<li>
+								<a href="">December 2023</a>
+							</li>
+							<li>
+								<a href="">November 2023</a>
+							</li>
+							<li>
+								<a href="">October 2023</a>
+							</li>
+							<li>
+								<a href="">September 2023</a>
+							</li>
+							<li>
+								<a href="">August 2023</a>
+							</li>
+							<li>
+								<a href="">June 2023</a>
+							</li>
+							<li>
+								<a href="">May 2023</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+  </div>
+
+	<script>
+        $("#img2").mouseenter(function () {
+            $("#img2").hide();
+        });
+        $("#img2").mouseleave(function () {
+            $("#img2").show();
+		});
+
+        $('#h1').click(function () {
+            if ($('#ul1').is(":hidden")) {
+                $('#ul1').show("slow");
+            } else {
+                $('#ul1').hide("slow");
+            }
+		});
+
+        $('#h2').click(function () {
+            if ($('#ul2').is(":hidden")) {
+                $('#ul2').show("slow");
+            } else {
+                $('#ul2').hide("slow");
+            }
+		});
+
+        $('#h3').click(function () {
+            if ($('#ul3').is(":hidden")) {
+                $('#ul3').show("slow");
+            } else {
+                $('#ul3').hide("slow");
+            }
+        });
+    </script>
+
+    <style>
+					h4 {
+						cursor: pointer;
+					}
+    </style>
+
+</asp:Content>

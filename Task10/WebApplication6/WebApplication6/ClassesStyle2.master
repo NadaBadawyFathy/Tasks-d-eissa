@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Style2Main.master" AutoEventWireup="true" CodeBehind="ClassesStyle2.master.cs" Inherits="WebApplication6.ClassesStyle2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="content3" runat="server">
+    <artical id="gallary" >
+        <artical class="images" id="img1" style="margin-top: 20px;">
+            <img id="s1" src="images/slider1.jpg" alt="">
+            <img id="s2" src="images/slider2.jpg" alt="">
+        </artical>
+        <artical class="images" id="img2">
+            <img id="s3" src="images/slider3.jpg" alt="">
+            <img id="s4" src="images/slider4.jpg" alt="">
+        </artical>
+
+        <artical class="images" id="img3">
+            <img id="s5" src="images/slider5.jpg" alt="">
+            <img id="s6" src="images/slider6.jpg" alt="">
+        </artical>
+     </artical>
+    
+    <style>
+
+        #gallary .images {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+       .images img {
+	        max-width: 200px;
+	        height: 200px;
+            display: none;
+       }
+
+       #gallary .images img.highlight {
+	        border: 5px dashed black;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("img").mouseenter(function () {
+                $(this).addClass("highlight");
+            });
+            $("img").mouseleave(function () {
+                $(this).removeClass("highlight");
+            });
+        });
+
+        $(document).ready(function () {
+            $("#s1").show(300);
+            $("#s2").show(700);
+            $("#s3").show(900);
+            $("#s4").show(1400);
+            $("#s5").show(1800);
+            $("#s6").show(2000);
+        });
+    </script>
+</asp:Content>
+

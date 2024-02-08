@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Style2Main.master" AutoEventWireup="true" CodeBehind="TournamentsStyle2.master.cs" Inherits="WebApplication6.TournamentsStyle2" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="content3" runat="server">
+
+      <aritcle class="tournaments">
+		<article id="vad1" style="padding:20px" class="vad">
+			<h3>2023 Tournaments Schedule</h3>
+               <article>
+       This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
+             </article>		
+       </article>
+
+     	<article id="vad2" style="padding:20px" class="vad">
+<h3>2023 Tournaments Schedule</h3>
+             <article>
+           This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
+             </article>		
+             </article>	
+
+	   <article id="vad3" style="padding:20px" class="vad">
+<h3>2023 Tournaments Schedule</h3>
+             <article>
+          This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
+            </article>		
+            </article>	
+
+      	<article id="vad4" style="padding:20px" class="vad">
+<h3>2023 Tournaments Schedule</h3>
+         <article>
+         This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
+         </article>		
+         </article>	
+
+</aritcle>
+  
+
+  <style>
+      .vad.highlight {
+         border: 5px dashed black;
+         background-color:skyblue;
+      }
+  </style>
+
+  <script>
+      $(document).ready(function () {
+          $("#vad1").mouseenter(function () {
+              $(this).addClass("highlight");
+          });
+          $("#vad1").mouseleave(function () {
+              $(this).removeClass("highlight");
+          });
+      });
+
+      $(document).ready(function () {
+          $("#vad2").mouseenter(function () {
+              $(this).addClass("highlight");
+          });
+          $("#vad2").mouseleave(function () {
+              $(this).removeClass("highlight");
+          });
+      });
+
+      $(document).ready(function () {
+          $("#vad3").mouseenter(function () {
+              $(this).addClass("highlight");
+          });
+          $("#vad3").mouseleave(function () {
+              $(this).removeClass("highlight");
+          });
+      });
+
+      $(document).ready(function () {
+          $("#vad4").mouseenter(function () {
+              $(this).addClass("highlight");
+          });
+          $("#vad4").mouseleave(function () {
+              $(this).removeClass("highlight");
+          });
+      });
+  </script>
+</asp:Content>
+

@@ -1,0 +1,268 @@
+/*-------------------container--------------------*/
+.container {
+    width: 960px;
+    margin: auto;
+    background: lightgoldenrodyellow;
+    min-height: 1000px;
+}
+    /*-------------------header--------------------*/
+.container header {
+     background-color:aquamarine;
+     padding: 20px;
+     overflow: hidden;
+}
+.container header #logo a img {
+       width: 100px;
+}
+.container header #logo h1 {
+       float: right
+}
+    /*-------------------slider--------------------*/
+.container #slider {
+        overflow: hidden
+}
+.container #slider img {
+        width: 960px;
+        height: 300px;
+}
+    /*-------------------footer--------------------*/
+
+    .container .footer {
+        background: aquamarine;
+        height: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+    /*-------------------nav--------------------*/
+    .container nav {
+        text-align: center;
+    }
+
+        .container nav ul {
+            list-style-type: none;
+            background-color: cadetblue;
+            overflow: hidden;
+        }
+
+            .container nav ul li {
+                float: left;
+            }
+
+                .container nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                    display: block;
+                    border-left: solid white 1px;
+                    padding: 10px 60px;
+                }
+
+            .container nav ul ul {
+                position: absolute;
+                left: -999px;
+                padding: 0;
+                margin: 0;
+            }
+
+            .container nav ul li li {
+                float: none;
+                border-bottom: solid white 1px;
+                border-top: solid white 1px
+            }
+
+            .container nav ul li:hover ul {
+                left: auto;
+            }
+
+            .container nav ul li a:hover {
+                color: cadetblue;
+                background: #fff;
+            }
+
+            .container nav ul li #home {
+                border-left: none
+            }
+/*-------------------contact--------------------*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+.column {
+    float: left;
+    width: 45%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    /*-------------------body--------------------*/
+.container .body {
+        overflow: hidden
+}
+.container .body div {
+        width: 280px;
+        height: 340px;
+        margin: 10px;
+        padding: 5px;
+        background: white;
+        border: solid;
+        float: left;
+        border-color: aquamarine;
+}
+.container .body div img {
+       width: 280px;
+       height: 200px
+
+}
+    /*-------------------Products--------------------*/
+.container .Products {
+        overflow: hidden
+}
+.container .Products div {
+        width: 280px;
+        margin: 10px;
+        padding: 5px;
+        background: white;
+        border: solid;
+        float: left;
+        border-color: aquamarine;
+        box-shadow: 0px 10px 10px aquamarine;
+
+}
+.container .Products div img {
+            width: 280px;
+            height: 200px;
+           box-shadow:10px 
+ }
+    /*-------------------About--------------------*/
+.container .About {
+        overflow: hidden
+}
+.container .About div {
+       
+        margin: 10px;
+        padding: 5px;
+        background: white;
+        border: solid;
+        float: left;
+        border-color: aquamarine;
+}
+.container .About .abaut_r img {
+        width: 280px;
+        height: 200px;
+        float: left;
+        margin: 10px;
+        padding: 5px;
+}
+.container .About abaut_r p {
+        float: right;
+        padding: 20px;
+}
+.container .About .abaut_l img {
+        width: 280px;
+        height: 200px;
+        float: right;
+        margin: 10px;
+        padding: 5px;
+}
+.container .About .abaut_a img {
+        width: 250px;
+        height: 200px;
+        background: white;
+        border: solid;
+        margin: 10px;
+        padding: 5px;
+        border-color: cadetblue;
+}
+.container .About .abaut_a {
+        width: 280px;
+        margin: 10px;
+        padding: 5px;
+        float: left;
+}
+.container .About .abaut_a h2 {
+        font-size:large;
+        text-align:center;
+        color:darkslategrey
+}
+.container .About abaut_l p {
+        float: left;
+        padding: 20px;
+}
+/*-------------------WebDesign--------------------*/
+.container .WebDesign {
+    overflow: hidden;
+    height: 400px;
+    background: linear-gradient(yellow,white)
+}
+
+#danimation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: darkslategrey;
+        left: 860px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 860px;
+        top: 300px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 300px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}

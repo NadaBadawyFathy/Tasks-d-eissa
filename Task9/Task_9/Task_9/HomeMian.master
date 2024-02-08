@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="HomeMian.master.cs" Inherits="Task_9.HomeMian" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+     <div id="slider">
+        
+        <img src="images/slider1.jpg" alt="">
+        
+    </div>
+    <div class="body">
+        <div>
+            <img src="images/slider2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et iusto molestias nostrum obcaecati placeat rerum. Debitis molestiae natus possimus voluptate voluptates? Aperiam, blanditiis earum praesentium qui quibusdam ratione rem voluptas.</p>
+        </div>
+        <div>
+            <img src="images/slider3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam ipsam natus quas ut. Dolore doloribus excepturi modi natus quisquam rerum similique veniam. Aliquam blanditiis illum ipsa qui, quidem ratione.</p>
+        </div>
+        <div>
+            <img src="images/slider4.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto aspernatur consectetur cumque deleniti dolore dolores error est, exercitationem fuga iste, iusto libero modi quasi reiciendis repellendus suscipit unde, veniam.</p>
+        </div>
+    </div>
+</asp:Content>
